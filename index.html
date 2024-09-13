@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Track Your Days Lived</h1>
+        <form id="dob-form">
+            <label for="dob">Enter your Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <button type="submit">Start Counting</button>
+        </form>
+
+        <div id="output">
+            <p>You have lived <span id="days-lived">0</span> days.</p>
+            <button id="cut-days">Cut Previous Day</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
